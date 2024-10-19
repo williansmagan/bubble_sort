@@ -12,4 +12,5 @@ def BubbleSort(lista):
 
 
 lista_ordenada = BubbleSort(lista) #Executa a função de ordenação BubbleSort
+print('Lista original: ', lista) #Exibe a lista original para ordenação
 print('Lista ordenada em ordem crescente: ', lista_ordenada) #Exibe a lista ordenada em ordem crescente
