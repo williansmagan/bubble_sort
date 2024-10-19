@@ -1,4 +1,7 @@
+lista = []
 lista = [2, 5, 0, 30, 12, 6, 99, 123, 10, 33] #Lista de itens. Pode ser configurada para puxar dados de uma inserção do usuário
+lista_original = lista.copy() # Cria uma cópia da lista original
+
 
 #Função de ordenação
 def BubbleSort(lista):
@@ -12,5 +15,5 @@ def BubbleSort(lista):
 
 
 lista_ordenada = BubbleSort(lista) #Executa a função de ordenação BubbleSort
-print('Lista original: ', lista) #Exibe a lista original para ordenação
+print('Lista original: ', lista_original) #Exibe a lista original para ordenação
 print('Lista ordenada em ordem crescente: ', lista_ordenada) #Exibe a lista ordenada em ordem crescente
